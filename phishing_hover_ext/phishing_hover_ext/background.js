@@ -1,0 +1,1 @@
+// Background file (required for MV3, but logic is in content script)

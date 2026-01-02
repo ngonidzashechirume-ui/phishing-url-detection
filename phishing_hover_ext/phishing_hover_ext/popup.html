@@ -1,0 +1,22 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Phishing Detection Dashboard</title>
+  <style>
+    body { font-family: sans-serif; padding: 10px; width: 300px; }
+    h2 { font-size: 16px; margin-bottom: 10px; }
+    #status { font-size: 14px; margin-top: 10px; }
+    #test-url { width: 100%; padding: 5px; }
+    #predict-btn { margin-top: 10px; padding: 5px 10px; }
+  </style>
+</head>
+<body>
+  <h2>🛡️ ML Phishing Detector</h2>
+  <input type="text" id="test-url" placeholder="Enter a URL to test" />
+  <button id="predict-btn">Check</button>
+  <div id="status"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
